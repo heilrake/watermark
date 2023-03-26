@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1>Програмне забезпечення для вбудовування цифрового водяного знаку в зображення.</h1>
+    <p>Оберіть необхідне зображення</p>
+    <input id="upload" type="file" accept="image/*" />
+    <div id="images" style="visibility: hidden">
+      <h2>Оригінальне зображення</h2>
+      <img id="originalImage" />
+      <h2>Зображення номер 1 (image watermark)</h2>
+      <img id="watermakedImage" />
+      <h2>Зображення номер 2 (text watermark)</h2>
+      <img id="watermakedImageWithText" />
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>
